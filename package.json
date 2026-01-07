@@ -9,7 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
     "next": "16.1.1",
+    "pdf-parse": "^2.4.5",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
