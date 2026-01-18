@@ -1,10 +1,18 @@
+"use client";
 import React from "react";
 
-const CreateButton = () => {
+interface CreateButtonProps {
+	setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const CreateButton = ({ setOpen }: CreateButtonProps) => {
 	return (
-		<div className="bg-blue-200 mx-150">
+		<button
+			className="bg-blue-300 px-10"
+			onClick={() => setOpen(true)}
+		>
 			<h3>+ Create New Set </h3>
-		</div>
+		</button>
 	);
 };
 

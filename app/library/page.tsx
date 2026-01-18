@@ -5,16 +5,16 @@ import CreateButton from "../components/CreateButton";
 import Modal from "../components/Modal";
 
 const Library = () => {
-	let [open, setOpen] = React.useState<boolean>(true);
+	let [open, setOpen] = React.useState<boolean>(false);
 	return (
 		<div className="items-center text-center">
 			<h1 className="font-black text-4xl pt-1">My Library</h1>
 			<LibraryContainer />
 			<Modal
 				open={open}
-				onClose={() => setOpen(true)}
+				setOpen={setOpen}
 			/>
-			<CreateButton />
+			<CreateButton setOpen={setOpen} />
 		</div>
 	);
 };

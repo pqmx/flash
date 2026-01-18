@@ -84,7 +84,9 @@ const FileUpload = () => {
 			{/* Header */}
 			<div className="border-b border-border bg-background p-4">
 				<h2 className="text-lg font-semibold">Documents</h2>
-				<p className="text-sm text-muted-foreground">Upload files to analyze</p>
+				<p className="text-sm text-muted-foreground">
+					Upload files to analyze and create flashcards
+				</p>
 			</div>
 
 			{/* Upload Area */}
