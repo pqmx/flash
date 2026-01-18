@@ -13,7 +13,7 @@ const Modal = ({ open, setOpen }: NewModalProps) => {
 				open ? "visible bg-black/40" : "invisible opacity-0"
 			}`}
 		>
-			<div className="relative bg-white w-1/2 h-1/3 p-6 rounded-lg shadow-sm flex flex-col">
+			<div className="relative bg-white w-1/2 h-1/2 p-6 rounded-lg shadow-sm flex flex-col">
 				<button
 					onClick={() => setOpen(false)}
 					className="absolute top-2 right-2 text-gray-700 text-lg font-bold hover:text-gray-900"
