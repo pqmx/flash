@@ -6,7 +6,7 @@ const Navbar = () => {
 	const [mobileOpen, setMobileOpen] = useState(false);
 
 	const links = [
-		{ name: "Dashboard", href: "/" },
+		{ name: "My Library", href: "/library" },
 		{ name: "Create New", href: "/create-new" },
 		{ name: "Logout", href: "/Logout" },
 	];

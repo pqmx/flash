@@ -3,6 +3,14 @@
 :root {
 	--background: #ffffff;
 	--foreground: #171717;
+	--sm: 8px;
+	--md: 16px;
+	--lg: 32px;
+	--xl: 64px;
+	--2xl: 128px;
+	--3xl: 256px;
+	--4xl: 512px;
+	--5xl: 1024px;
 }
 
 @theme inline {
